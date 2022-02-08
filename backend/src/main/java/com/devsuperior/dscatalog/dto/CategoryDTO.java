@@ -1,7 +1,7 @@
 package com.devsuperior.dscatalog.dto;
 
 import java.io.Serializable;
-import java.time.Instant;
+
 
 import com.devsuperior.dscatalog.entities.Category;
 
@@ -10,8 +10,7 @@ public class CategoryDTO implements Serializable {
 	private static final long serialVersionUID = 1L;
 	private Long id;
 	private String name;
-	private Instant createdAt;
-	private Instant updatedAt;
+	
 	
 	public CategoryDTO() {
 		
